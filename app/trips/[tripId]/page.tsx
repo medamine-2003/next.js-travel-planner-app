@@ -1,5 +1,5 @@
 import { auth } from "@/auth";
-import TripDetailClient from "@/components/trip-detail";
+import TripDetailClient from "@/components/trip-details";
 import { prisma } from "@/lib/prisma";
 
 export default async function TripDetail({
@@ -28,3 +28,4 @@ export default async function TripDetail({
 
   return <TripDetailClient trip={trip} />;
 }
+
